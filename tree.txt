@@ -1,0 +1,49 @@
+./
+|   Compile.sh
+|   error_log.txt
+|   makefile
+|   startClient.sh
+|   startServer.sh
+|   tree.txt
+|
++---build
++---config
+|       Fichier.ini
+|
++---data
+|       Membres.dat
+|       StockLivrePc.dat
+|       StockLivreSun.dat
+|
++---enonce
+|       dossier2013-2014PremierePartie.pdf
+|       Liste - DossierUnix.pdf
+|
++---headers
+|   +---client
+|   |       FenetreSaisie.h
+|   |
+|   +---common
+|   |       Ecran.h
+|   |       Libs.h
+|   |       Livre.h
+|   |
+|   \---server
+|           Serveur.h
+|
+\---libs
+    +---client
+    |       FenetreSaisie.cpp
+    |       Main.cpp
+    |       moc_FenetreSaisie.cpp
+    |
+    +---common
+    |       Ecran.cpp
+    |       Libs.cpp
+    |       LitLivre.cpp
+    |
+    \---server
+            AccesFichier.cpp
+            Livre.cpp
+            Login.cpp
+            Serveur.cpp

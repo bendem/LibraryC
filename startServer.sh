@@ -1,0 +1,5 @@
+ipcrm -Q 0x11b0
+ipcrm -S 0x63c
+ipcrm -S 0x63d
+ipcrm -S 0x63e
+build/Server
